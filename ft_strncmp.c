@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int ft_strncmp(char *s1, char *s2, unsigned int n)
 {
     unsigned int i;
@@ -16,6 +14,9 @@ int ft_strncmp(char *s1, char *s2, unsigned int n)
 	return (s1[i] - s2[i]);
 }
 
+/*
+#include <stdio.h>
+
 int main()
 {
     char name[] = "Riachuelo";
@@ -24,3 +25,4 @@ int main()
     printf ("%d\n", ft_strncmp (name, name1, 10));
     printf ("%d\n", ft_strncmp (name, name1, 0));
 }
+*/
